@@ -1,0 +1,55 @@
+.portfolio{
+    padding: 60px 0;
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 0;
+        line-height: 1px;
+        margin-bottom: 15px;
+        color:  #c2b7b1;
+    }
+
+    p{
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 32px;
+        font-weight: 700;
+        color: #4e4039;
+    }
+}
+
+.row{
+    .port-options{
+        padding: 0;
+        margin: 0 0 35px 0;
+        list-style: none;
+        text-align: center;
+
+        
+    }
+}
+
+
+.portfolio .port-options li{
+    cursor: pointer;
+        margin:  0 15px 15px 0;
+        display: inline-block;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+}
+
+.portfolio .port-options li:hover{
+    color: #eb5d1e;
+}
+
+.portfolio img{
+    border-radius: 8px;
+}
+
+

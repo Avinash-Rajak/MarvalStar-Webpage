@@ -1,0 +1,38 @@
+.clients{
+    background-color: $backgroung-color-1;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 0;
+        line-height: 1px;
+        margin-bottom: 15px;
+        color:  #c2b7b1;
+    }
+
+    p{
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 32px;
+        font-weight: 700;
+        color: #4e4039;
+    }
+
+   img{
+    //    opacity: 0.5;
+       transition: 0.3s;
+       cursor: pointer;
+       filter: grayscale(100%);
+   }
+
+   img:hover{
+       filter: grayscale(0);
+   }
+}    
+
+
+
+

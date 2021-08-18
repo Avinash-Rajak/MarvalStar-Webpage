@@ -1,0 +1,46 @@
+.navbar{
+    background-color: white;
+    color: $primary-color;
+    height: 72px;
+    z-index: 997;
+
+
+   &-brand{
+       color: $primary-color;
+       font-size: 30px;
+       font-weight: 400;
+   }
+
+
+}
+
+
+.nav-link{
+        color: $primary-color;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.get-start{
+    background-color: #eb5d1e;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+
+    &:hover{
+        background-color: #f19269;
+        color: #fff;
+        transition: 0.3s;
+        transition-property: all;
+        transition-timing-function: ease;
+
+    }
+
+}
+

@@ -1,0 +1,32 @@
+.faq{
+    background-color: $backgroung-color-1;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 0;
+        line-height: 1px;
+        margin-bottom: 15px;
+        color:  #c2b7b1;
+    }
+
+    p{
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 32px;
+        font-weight: 700;
+        color: #4e4039;
+    }
+
+    .questions{
+        transition: all 0.3s ease-in-out;
+    }
+
+    .questions:hover{
+        color: #ef7f4d;
+    }
+}
+
