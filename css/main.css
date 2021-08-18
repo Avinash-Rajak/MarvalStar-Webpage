@@ -9,13 +9,19 @@
   background-color: white;
   color: #7A6960;
   height: 72px;
-  z-index: 997;
+  z-index: 1;
+  -webkit-box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+          box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
 }
 
 .navbar-brand {
   color: #7A6960;
   font-size: 30px;
   font-weight: 400;
+}
+
+.navbar-brand:hover {
+  color: #7A6960;
 }
 
 .nav-link {
@@ -46,6 +52,10 @@
   transition-property: all;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
+}
+
+.navbar-collapse {
+  padding-left: 280px;
 }
 
 .header {
@@ -84,7 +94,7 @@
 }
 
 .services {
-  background-color: #fef8f5;
+  background-color: #fff;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -195,7 +205,7 @@
 }
 
 .faq {
-  background-color: #fef8f5;
+  background-color: #fff;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -251,7 +261,7 @@
 }
 
 .clients {
-  background-color: #fef8f5;
+  background-color: #fff;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -429,8 +439,6 @@ button:hover {
 .email {
   border: 0;
   padding: 4px 4px;
-  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   width: calc(100% - 100px);
 }
 
@@ -474,8 +482,7 @@ button:hover {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #363636;
+  color: #292727;
 }
 
 .footer-middle strong {
@@ -513,5 +520,75 @@ button:hover {
 
 .footer-links ul a:hover {
   color: #f19269;
+}
+
+.footer-links .icon {
+  font-size: 18px;
+  display: inline-block;
+  background-color: #eb5d1e;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-links .icon:hover {
+  background-color: #f19269;
+}
+
+.copyright {
+  text-align: center;
+  float: left;
+}
+
+.credits {
+  text-align: center;
+  float: right;
+  font-size: 13px;
+  color: #212529;
+}
+
+.credits a {
+  color: #eb5d1e;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9999;
+  background-color: #eb5d1e;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.back-to-top:hover {
+  background-color: #f19269;
+}
+
+.bye {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.py-4 {
+  width: 100%;
+  background-color: #fef8f5;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem !important;
+}
+
+body {
+  background-color: #fef8f5;
 }
 /*# sourceMappingURL=main.css.map */

@@ -25,7 +25,7 @@
 .email{
     border: 0;
     padding: 4px 4px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     width: calc(100% - 100px);
 }
 
@@ -91,8 +91,8 @@
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 0;
-        font-family: "Raleway", sans-serif ;
-        color: #363636;
+        
+        color: #292727;
     }
 
     strong{
@@ -134,7 +134,79 @@
             color:#f19269;
         }
     }
+
+    
+
+    .icon{
+        font-size: 18px;
+            display: inline-block;
+            background-color:#eb5d1e ;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            margin-right: 4px;
+            border-radius: 50%;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+
+        &:hover{
+            background-color:#f19269 ;
+        }
+    }
 }
 
+.copyright{
+    text-align: center;
+    float: left;
+}
+
+.credits{
+    text-align: center;
+    float: right;
+    font-size: 13px;
+    color: #212529;
+}
+
+.credits a{
+    color: #eb5d1e;
+}
+
+.back-to-top{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9999;
+    background-color:#eb5d1e ;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+
+    &:hover{
+        background-color: #f19269 ;
+    }
+
+   
+}
+
+
+.bye{
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+// .last-box{
+//     background-color: $backgroung-color-1;
+// }
+
+.py-4{
+    width: 100%;
+    background-color: $backgroung-color-1;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem !important;
+}
 
 

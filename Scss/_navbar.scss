@@ -2,14 +2,23 @@
     background-color: white;
     color: $primary-color;
     height: 72px;
-    z-index: 997;
+    z-index: 1;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+    
+    
 
 
    &-brand{
        color: $primary-color;
        font-size: 30px;
        font-weight: 400;
+
+       &:hover{
+        color:$primary-color ;
+    }
    }
+
+   
 
 
 }
@@ -42,5 +51,9 @@
 
     }
 
+}
+
+.navbar-collapse{
+    padding-left: 280px;
 }
 
