@@ -42,15 +42,16 @@
     display: block;
     text-decoration: none;
 
-    &:hover{
-        background-color: #f19269;
+    
+    
+}
+
+.get-start:hover{
+    background-color: #f19269;
         color: #fff;
         transition: 0.3s;
         transition-property: all;
         transition-timing-function: ease;
-
-    }
-
 }
 
 // .navbar-collapse{
