@@ -72,3 +72,10 @@
     margin-bottom: 0;
     font-weight: normal;
 }
+
+.animate{
+    transition: transform 0.5s;
+}
+.animate:hover{
+    transform: translateY(-8px);
+}
